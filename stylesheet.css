@@ -1,0 +1,170 @@
+.logo{
+  font-style:italic;
+  padding-left: 5px;
+  text-align: left;
+  color: brown;
+
+}
+#niteliklikahve {
+width:80%;
+height:500%;
+margin-bottom: 100px;
+padding-top: 350px;
+padding-left: 10px;
+padding-right: 20px;
+
+
+}
+
+.menu li{
+float: left;
+display: flex;
+border-right: 1px solid black;
+border: 1px solid black;
+font-style: verdana;
+
+}
+
+
+.menu ul {
+  display: block;
+  list-style-type: none;
+  text-decoration: none;
+  font-style: italic;
+  justify-content: center;
+ 
+}
+
+.baslik{
+text-align: center;
+font-size: 35px;
+font-style: italic;
+padding-top: 0px;
+padding-bottom: 0px;
+color: black;
+
+}
+.menu li a {
+text-align: center;
+text-decoration:none;
+display: block;
+color:black;
+padding: 10px 40px ;
+font-size:20px;
+
+
+}
+.menu li:hover {
+background-color: rgba(0,0,0,0.3);
+}
+
+
+#hizmet {
+width:100%;
+height: 100%;
+margin-bottom: 0px;
+padding-top: 100px;
+padding-left: 10px;
+font-style: verdana;
+font-size: 18px;
+
+}
+#hizmet2{
+
+width:100%;
+height: 10%;
+margin-bottom: 20px;
+padding-top: 10px;
+padding-left: 10px;
+font-style: verdana;
+font-size: 18px;
+padding-bottom: 20px;
+}
+#tarihcemiz{
+width:100%;
+height: 100%;
+margin-bottom: 0px;
+padding-top: 10px;
+padding-left: 10px;
+font-style: verdana;
+font-size: 18px;
+
+}
+#misyonumuz{
+width:100%;
+height: 10%;
+margin-bottom: 0px;
+padding-top: 0px;
+padding-left: 10px;
+font-style: verdana;
+font-size: 18px;
+
+}
+#vizyonumuz{
+width:50%;
+height: 10%;
+margin-bottom: 20px;
+padding-top:0px;
+padding-left: 10px;
+font-style: verdana;
+font-size: 18px;
+padding-bottom: 20px;
+
+
+}
+#kariyer{
+width: 50%;
+height: 10%;
+padding-left: 20px;
+margin-bottom: 0px;
+padding-top:150px;
+font-size: 18px;
+font-style: verdana;
+}
+
+.mapözellik {
+width: 100%;
+height: 50;
+}
+.harita{
+max-width: 400px;
+}
+
+.gallery{
+   border:none
+   
+}
+.gallery img{
+  width: 90%;
+  height: auto;
+
+}
+.des {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+.responsive{
+  padding-bottom: 20px;
+  padding-left: 20px;
+ 
+}
+@media (max-width: 800px) {
+	
+	.menu ul {
+		display: block;
+	}
+
+	.menu ul li {
+		float: none;
+	}
+
+	.menu ul li {
+		border-right: none; border-left: none; border-bottom: 1px solid black; border-top: 1px solid black; text-align: center;
+	}
+
+}
+
+
+
+
